@@ -1,0 +1,60 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 5px;
+  border-color: #F05F44;
+  border-radius: 300px; 
+  margin-top: 200px;
+  margin-bottom: 30px; 
+
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+  font-size: 2rem; 
+  transition: all 0.9s
+}
+
+.faded:hover
+{
+
+color: #f2d5d5;
+transform: scale(1.1);
+
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("banf.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+
+.btn-xl {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem 2rem; 
+  background-color: #F05F44;
+  border-color: #F05F44; 
+  transition: all 0.3s}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
